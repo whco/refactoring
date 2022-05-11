@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="284a4756-b247-447d-a126-9d3346af4783" name="Changes" comment="Refactoring Study first commit : Movie, Rental, Customer classes added.&#10;CustomerTest added.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="284a4756-b247-447d-a126-9d3346af4783" name="Changes" comment="Variable name change">
       <change beforePath="$PROJECT_DIR$/src/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Rental.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rental.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1652158865166</updated>
       <workItem from="1652158866408" duration="770000" />
-      <workItem from="1652163704122" duration="9982000" />
+      <workItem from="1652163704122" duration="10523000" />
     </task>
     <task id="LOCAL-00001" summary="Refactoring Study first commit : Movie, Rental, Customer classes added.&#10;CustomerTest added.">
       <created>1652194262763</created>
@@ -87,7 +87,21 @@
       <option name="project" value="LOCAL" />
       <updated>1652194262763</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Extract Method">
+      <created>1652255740905</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1652255740905</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Variable name change">
+      <created>1652255898712</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1652255898712</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +120,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Refactoring Study first commit : Movie, Rental, Customer classes added.&#10;CustomerTest added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactoring Study first commit : Movie, Rental, Customer classes added.&#10;CustomerTest added." />
+    <MESSAGE value="Extract Method" />
+    <MESSAGE value="Variable name change" />
+    <option name="LAST_COMMIT_MESSAGE" value="Variable name change" />
   </component>
 </project>
