@@ -53,7 +53,27 @@ class CustomerTest {
             + "Amount owed is " + String.valueOf(totalAmount) + "\n"
             + "You earned " + String.valueOf(frequentRenterPoints) + " frequent renter points",
                     s,
-                    "customer" + (i + 1) + " failed");
+                    "customer" + (i + 1) + "'s statement() failed");
+        }
+    }
+
+    @Test
+    void htmlStatement() {
+        String name;
+        for (int i = 0; i < _customer.size(); i++) {
+            String s = _customer.get(i).htmlStatement();
+            name = i == 0 ? "c1" : "c2";
+            assertEquals("<H1>Rentals for <EM>" + _customer.get(i).getName() + "</EM></H1><P>\n" +
+                            "m1: 2.0<BR>\n" +
+                            "m1: 8.0<BR>\n" +
+                            "m2: 3.0<BR>\n" +
+                            "m2: 9.0<BR>\n" +
+                            "m3: 1.5<BR>\n" +
+                            "m3: 7.5<BR>\n" +
+                            "<P>You owe <EM>31.0</EM><P>\n" +
+                            "On this rental you earned <EM>7</EM> frequent renter points<P>",
+                    s,
+                    "customer" + (i + 1) + "'s htmlStatement() failed");
         }
     }
 }

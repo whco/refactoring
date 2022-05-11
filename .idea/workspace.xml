@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="284a4756-b247-447d-a126-9d3346af4783" name="Changes" comment="Replace Temp with Query : totalAmount -&gt; getTotalCharge()">
+    <list default="true" id="284a4756-b247-447d-a126-9d3346af4783" name="Changes" comment="Replace Temp with Query : frequentRenterPoints -&gt; getFrequentRenterPoints()">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CustomerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +53,17 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.CustomerTest.htmlStatement">
+    <configuration name="CustomerTest.htmlStatement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="refactor_ch1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CustomerTest" />
+      <option name="METHOD_NAME" value="htmlStatement" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CustomerTest.statement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="refactor_ch1" />
       <option name="PACKAGE_NAME" value="" />
@@ -65,6 +76,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CustomerTest.htmlStatement" />
         <item itemvalue="JUnit.CustomerTest.statement" />
       </list>
     </recent_temporary>
@@ -78,7 +90,7 @@
       <option name="presentableId" value="Default" />
       <updated>1652158865166</updated>
       <workItem from="1652158866408" duration="770000" />
-      <workItem from="1652163704122" duration="12397000" />
+      <workItem from="1652163704122" duration="13631000" />
     </task>
     <task id="LOCAL-00001" summary="Refactoring Study first commit : Movie, Rental, Customer classes added.&#10;CustomerTest added.">
       <created>1652194262763</created>
@@ -136,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652257742256</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Replace Temp with Query : frequentRenterPoints -&gt; getFrequentRenterPoints()">
+      <created>1652258177567</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1652258177567</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +181,7 @@
     <MESSAGE value="Replace Temp with Query" />
     <MESSAGE value="Extract and move method" />
     <MESSAGE value="Replace Temp with Query : totalAmount -&gt; getTotalCharge()" />
-    <option name="LAST_COMMIT_MESSAGE" value="Replace Temp with Query : totalAmount -&gt; getTotalCharge()" />
+    <MESSAGE value="Replace Temp with Query : frequentRenterPoints -&gt; getFrequentRenterPoints()" />
+    <option name="LAST_COMMIT_MESSAGE" value="Replace Temp with Query : frequentRenterPoints -&gt; getFrequentRenterPoints()" />
   </component>
 </project>
