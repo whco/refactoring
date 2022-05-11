@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="284a4756-b247-447d-a126-9d3346af4783" name="Changes" comment="htmlStatement and Test added">
+    <list default="true" id="284a4756-b247-447d-a126-9d3346af4783" name="Changes" comment="Change Switch cause to ReDefinition : Move method to class where variable whose possibility of change is high">
       <change beforePath="$PROJECT_DIR$/src/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Movie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Rental.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rental.java" afterDir="false" />
     </list>
@@ -89,7 +89,7 @@
       <option name="presentableId" value="Default" />
       <updated>1652158865166</updated>
       <workItem from="1652158866408" duration="770000" />
-      <workItem from="1652163704122" duration="14274000" />
+      <workItem from="1652163704122" duration="14682000" />
     </task>
     <task id="LOCAL-00001" summary="Refactoring Study first commit : Movie, Rental, Customer classes added.&#10;CustomerTest added.">
       <created>1652194262763</created>
@@ -161,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652259411465</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Change Switch cause to ReDefinition : Move method to class where variable whose possibility of change is high">
+      <created>1652260328112</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1652260328112</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +196,7 @@
     <MESSAGE value="Replace Temp with Query : totalAmount -&gt; getTotalCharge()" />
     <MESSAGE value="Replace Temp with Query : frequentRenterPoints -&gt; getFrequentRenterPoints()" />
     <MESSAGE value="htmlStatement and Test added" />
-    <option name="LAST_COMMIT_MESSAGE" value="htmlStatement and Test added" />
+    <MESSAGE value="Change Switch cause to ReDefinition : Move method to class where variable whose possibility of change is high" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change Switch cause to ReDefinition : Move method to class where variable whose possibility of change is high" />
   </component>
 </project>
